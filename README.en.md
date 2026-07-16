@@ -2,13 +2,13 @@
 
 ![Preview](assets/preview.svg)
 
-Three illustrative pricing cards with restrained glassmorphism and a monthly/annual selector.
+A visual pricing-card laboratory with no money, simulated sales, or commercial-offer appearance.
 
 ## Features
 
-- Values change without layout shifts.
-- Recommended plan with clear hierarchy.
-- Explicit demo language, never presented as an offer.
+- Density changes without layout shifts.
+- Interchangeable featured card.
+- Numbered visual levels instead of market-like prices.
 - Focus, hover, and pressed states.
 
 ## Live demo
@@ -21,15 +21,15 @@ Clone the repository, enter `glassmorphism-pricing-card`, and open `index.html`.
 
 ## Project structure
 
-Semantic HTML, tokenized CSS, billing JavaScript, SVG assets, and Netlify configuration.
+Semantic HTML, tokenized CSS, visual-state JavaScript, SVG assets, and Netlify configuration.
 
 ## Customization
 
-Edit `data-monthly`, `data-annual`, each plan list, and the surface tokens.
+Edit each level name and list, the density mode, and the surface tokens.
 
 ## Accessibility
 
-Billing uses native radio controls, changes are announced in a status region, and contrast supports each element's purpose.
+Visual modes use native radio controls, changes are announced in a status region, and contrast supports each element's purpose.
 
 ## Performance
 

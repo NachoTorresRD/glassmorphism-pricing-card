@@ -2,13 +2,13 @@
 
 ![Vista previa](assets/preview.svg)
 
-Tres tarjetas de precios ilustrativos con glassmorphism moderado y selector mensual/anual.
+Laboratorio visual de tarjetas tipo pricing sin dinero, ventas simuladas ni apariencia de oferta comercial.
 
 ## Características
 
-- Cambio de valores sin saltos de layout.
-- Plan recomendado con jerarquía clara.
-- Mensajes explícitos: es una demostración, no una oferta.
+- Cambio de densidad sin saltos de layout.
+- Tarjeta protagonista intercambiable.
+- Niveles numerados en lugar de precios de mercado.
 - Estados de foco, hover y pulsación.
 
 ## Demo en vivo
@@ -21,15 +21,15 @@ Clona el repositorio, entra en `glassmorphism-pricing-card` y abre `index.html`.
 
 ## Estructura del proyecto
 
-HTML semántico, CSS con tokens, JavaScript de facturación, recursos SVG y configuración Netlify.
+HTML semántico, CSS con tokens, JavaScript de estados visuales, recursos SVG y configuración Netlify.
 
 ## Cómo personalizarlo
 
-Edita los atributos `data-monthly` y `data-annual`, las listas de cada plan y los tokens de superficie.
+Edita las listas, los nombres de cada nivel, el modo de densidad y los tokens de superficie.
 
 ## Accesibilidad
 
-La frecuencia usa radios nativos, los cambios se anuncian en una región de estado y el contraste cumple el propósito de cada elemento.
+El modo visual usa radios nativos, los cambios se anuncian en una región de estado y el contraste cumple el propósito de cada elemento.
 
 ## Rendimiento
 

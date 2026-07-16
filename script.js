@@ -1,1 +1,20 @@
-"use strict";(()=>{const radios=[...document.querySelectorAll('input[name="billing"]')],prices=[...document.querySelectorAll(".price strong")],notice=document.querySelector("#notice"),buttons=[...document.querySelectorAll(".grid button")];if(!radios.length||!prices.length||!notice){console.warn("Pricing Card: DOM incompleto.");return}const update=value=>{const annual=value==="annual";prices.forEach(price=>{price.textContent=annual?price.dataset.annual:price.dataset.monthly});notice.textContent=annual?"Equivalente mensual ilustrativo con un descuento anual de ejemplo.":"Precios mensuales ilustrativos."};radios.forEach(radio=>radio.addEventListener("change",()=>update(radio.value)));buttons.forEach(button=>button.addEventListener("click",()=>{notice.textContent=`${button.textContent}: acción de demostración, no se realizará ningún cobro.`}));update("monthly")})();
+"use strict";
+(() => {
+  const stage = document.querySelector("#pricing");
+  const radios = [...document.querySelectorAll('input[name="mode"]')];
+  const buttons = [...document.querySelectorAll(".pricing-stage button")];
+  const badge = stage?.querySelector(".badge");
+  const notice = document.querySelector("#notice");
+  if (!stage || !radios.length || !notice) return;
+  radios.forEach(radio => radio.addEventListener("change", () => {
+    const detailed = radio.value === "detail";
+    stage.classList.toggle("detail", detailed);
+    notice.textContent = detailed ? "Detalle ampliado: la tarjeta protagonista gana profundidad." : "Modo foco activo.";
+  }));
+  buttons.forEach((button, index) => button.addEventListener("click", () => {
+    const cards = [...stage.querySelectorAll("article")];
+    cards.forEach((card, cardIndex) => card.classList.toggle("featured", cardIndex === index));
+    if (badge) cards[index].append(badge);
+    notice.textContent = `Tarjeta ${String(index + 1).padStart(2, "0")} destacada.`;
+  }));
+})();
