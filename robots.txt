@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://glassmorphism-pricing-card.netlify.app/sitemap.xml
