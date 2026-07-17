@@ -15,6 +15,12 @@ A visual pricing-card laboratory with no money, simulated sales, or commercial-o
 
 [glass.ntdesweb.dev](https://glass.ntdesweb.dev/)
 
+## More effect demos
+
+- [Scroll Reveal](https://scroll.ntdesweb.dev/)
+- [Neon Cursor Trail](https://neon.ntdesweb.dev/)
+- [Animated Login Panel](https://login.ntdesweb.dev/)
+
 ## Installation
 
 Clone the repository, enter `glassmorphism-pricing-card`, and open `index.html`.
