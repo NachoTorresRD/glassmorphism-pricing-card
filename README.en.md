@@ -13,7 +13,7 @@ A visual pricing-card laboratory with no money, simulated sales, or commercial-o
 
 ## Live demo
 
-[glassmorphismfx.ntdesweb.dev](https://glassmorphismfx.ntdesweb.dev/)
+[glass.ntdesweb.dev](https://glass.ntdesweb.dev/)
 
 ## Installation
 

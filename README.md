@@ -13,7 +13,7 @@ Laboratorio visual de tarjetas tipo pricing sin dinero, ventas simuladas ni apar
 
 ## Demo en vivo
 
-[glassmorphismfx.ntdesweb.dev](https://glassmorphismfx.ntdesweb.dev/)
+[glass.ntdesweb.dev](https://glass.ntdesweb.dev/)
 
 ## Instalación
 
