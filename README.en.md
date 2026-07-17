@@ -13,7 +13,7 @@ A visual pricing-card laboratory with no money, simulated sales, or commercial-o
 
 ## Live demo
 
-[glassmorphism-pricing-card.netlify.app](https://glassmorphism-pricing-card.netlify.app)
+[glassmorphismfx.ntdesweb.dev](https://glassmorphismfx.ntdesweb.dev/)
 
 ## Installation
 

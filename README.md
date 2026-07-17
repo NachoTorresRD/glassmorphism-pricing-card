@@ -13,7 +13,7 @@ Laboratorio visual de tarjetas tipo pricing sin dinero, ventas simuladas ni apar
 
 ## Demo en vivo
 
-[glassmorphism-pricing-card.netlify.app](https://glassmorphism-pricing-card.netlify.app)
+[glassmorphismfx.ntdesweb.dev](https://glassmorphismfx.ntdesweb.dev/)
 
 ## Instalación
 
